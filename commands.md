@@ -32,6 +32,9 @@ pip install pytest
 
 pip install pytest-django
 
+python manage.py startapp product .\DjangoDRFeCommerceProject\product\
+
+
 # Pytest
 
 pytest -h
