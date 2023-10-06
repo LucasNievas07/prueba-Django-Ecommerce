@@ -10,9 +10,13 @@ pytest==7.4.2
 
 pytest-django==4.5.2
 
+django-mptt==0.15.0
+
 # Commands
 
 django-admin startproject DjangoDRFeCommerceProject
+
+python -m venv venv
 
 venv/Scripts/activate
 
@@ -33,6 +37,8 @@ pip install pytest
 pip install pytest-django
 
 python manage.py startapp product .\DjangoDRFeCommerceProject\product\
+
+pip install django-mptt
 
 
 # Pytest
