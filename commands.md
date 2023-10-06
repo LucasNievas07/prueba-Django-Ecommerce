@@ -40,6 +40,9 @@ python manage.py startapp product .\DjangoDRFeCommerceProject\product\
 
 pip install django-mptt
 
+python manage.py makemigrations
+
+Python manage.py migrate
 
 # Pytest
 
